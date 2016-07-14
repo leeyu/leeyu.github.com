@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<title>现在云战争（真的）开始了</title>
+
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+
+
+</head>
+
+<body>
+
+<p><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 6.5 (453175)"/><meta name="keywords" content="瞬息之间, 微信"/><meta name="created" content="2016-07-14 07:51:11 +0000"/><meta name="source-application" content="微信"/><meta name="source-url" content="http://mp.weixin.qq.com/s?__biz=MzAxMTEyOTQ5OQ==&amp;mid=2650610616&amp;idx=1&amp;sn=c31e7f77a639788823a285c0c104dd4e&amp;scene=1&amp;srcid=0714HIcYoKn4UATHM1xd8fvG#rd"/><meta name="updated" content="2016-07-14 07:51:11 +0000"/><title>现在云战争（真的）开始了</title></head><body style="margin:0px;"><div style="padding:16px 12px;margin:8px auto;max-width:700px;"> <div style="margin:0;padding:0"> <div style="margin:0;position:relative;padding:20px 15px 15px;background-color:#fff"> <h2 style="margin:0;padding:0;margin-bottom:10px;line-height:1.4;font-weight:400;font-size:24px"> 现在云战争（真的）开始了 </h2> <div style="margin:0;padding:0;margin-bottom:18px;line-height:20px;font-size:0"> <em style="margin:0;padding:0;font-style:normal;display:inline-block;vertical-align:middle;margin-right:8px;margin-bottom:10px;font-size:16px;color:#8c8c8c">2016-07-13</em> <em style="margin:0;padding:0;font-style:normal;display:inline-block;vertical-align:middle;margin-right:8px;margin-bottom:10px;font-size:16px;color:#8c8c8c">mindwind（译）</em> <a style="margin:0;padding:0;color:#607fa6;text-decoration:none;display:inline-block;vertical-align:middle;margin-right:8px;margin-bottom:10px;font-size:16px">瞬息之间</a>   </div> <div style="margin:0;padding:0;overflow:hidden;color:#3e3e3e"> <p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap">Amazon 2015 年 AWS 业务实现了 79 亿美元收入，2016 从一季度 AWS 的数据看，今年营收突破 100 亿美元应该毫无压力。而最近一年多 <span style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;white-space:pre-wrap">Amazon 股价一路攀升，进入全美前五大市值公司。</span></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><span style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></span></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><span style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;white-space:pre-wrap">之前读到的一篇关于云计算的行业文章，来自 Box 的 CEO Aaron Levie </span><span style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;white-space:pre-wrap">最早发表在 techcrunch.com 上，当时我在学英语就顺便当练习翻译了一下，推荐给大家，下面是正文。</span></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><span style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;white-space:pre-wrap"><span style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></span></span></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><span style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;white-space:pre-wrap"><span style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;white-space:pre-wrap"/></span></p><hr style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><span style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;white-space:pre-wrap"><span style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;white-space:pre-wrap"/></span><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap">IBM的创始人Thomas Watson曾经有预见性地说过：“我认为世界可能只需要5台计算机”。一个表面看似荒谬的见解，但随着我们进入云计算时代，它正在变成一个非常有可能的现实。</p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap">经过多年投资自己的服务器集群、软件栈、中间件、灾难恢复系统、安全解决方案和网络，科技和非科技公司都认识到这些投入的时间和金钱从未带来它们想要的竞争力差异。</p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap">几乎世界上每一个企业，从通用、可口可乐到小公司，在世界范围内重复部署了数百万台计算机来完成几乎一样的任务。很少有公司拥有适合的技术人才并且知道如何高效地完成这些任务，而更少有公司能够让这些投资达到符合必要成本效益的规模经济。</p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap">今天，正如Watson预见到的，我们现在看见的这个时代可能只会有5到10台计算机（或是云），它们能够运营到足够大的规模来进行价格和性能的竞争。并且竞争成为这5或10家之一的公司们会是这个星球上最大的一些公司。</p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap">对于当前企业快速采用 SaaS（软件即服务）应用的现状，云计算显然还处在起步的婴儿期。从许多方面看，这就像1983年的PC市场，2003年的智能手机市场，或者1998年的搜索市场。</p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap">在这个领域毫无争议的领导者刚刚庆祝了它的10周年纪念日，虽然AWS运营收入有100亿美元，但相比万亿的市场规模，你该明白我们这才刚刚开始。</p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap">过去数年间，微软、亚马逊、谷歌和其他一些公司之间的来回拉锯争夺，我们仅仅看到了未来数十年云战争最初的战斗而已。</p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap">事后看来，开启云战争的亚马逊在当时似乎并非是没可能的。大多数人认为AWS是一个网上书店发起的有趣实验，只适合爱好者和个人开发者，肯定不会适用于所有人。之后微软CEO Steve Ballmer简单地说道：“亚马逊缺乏向大公司销售的经验。”</p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap">但是亚马逊确实拥有大公司在计算上所需要的东西——规模和弹性。亚马逊是世界上提供大规模web服务的少数公司之一，所以它能毫不费力地提供技术和经济上有吸引力的服务。起初这是一个未曾意料到的优势，之后很快业界认识到在计算之争中一些不同的事情正在发生。</p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap">在一个新行业的成型过程中随之而来的是各种各样的迂回曲折，伴随着许多玩家的进入与退出。</p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap">亚马逊，像任何优秀的先行者一样，以更低的价格在更多的地区提供了越来越多的可靠的服务，并还在不断吞噬更多的市场份额。然而当我们把注意力放在像谷歌或微软这些玩家的失误或出师不利上时，他们正在调整自身的云基因，我们忘了这可是一代漫长的战争，目下我们还几乎看不到这些玩家可供出售的服务。</p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap">一个例子，十一月一个普通的工作日，谷歌低调地宣布Diane Greene（VMware的创始CEO）将加入并领导谷歌云相关的工作。</p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap">一夜之间，谷歌解锁了他们无与伦比的技术军火库（这套武器是在成功构建谷歌搜索、Gmail、Youtube、谷歌地图的过程中经历数年发展起来的）并拥有了今天软件界最重要的个人之一。</p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap">现在有了正确的领导，谷歌能解决许多云工作上缺失的方面：包装正确的技术产品，构建出更广阔的开发者生态，并且拥有耐心和行动缓慢的组织合作。</p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap">甚至在几周内，有传言苹果可能悄悄的转移到谷歌平台，同时Spotify也取得了飞跃的进展。</p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap">从2016开始，真正的战斗即将打响。</p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><strong style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important">多种口味的云</strong></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap">这场战争的第一阶段将主要基于价格和性能。即使回顾过去几年，亚马逊已降价44次以保持竞争力并阻止新进入者。谷歌去年早些时候宣布，它的价格将随摩尔定律持续下降，暗示了降价没有结束的迹象。这只是一些即将推出的将全球工作负载从企业内部迁移到云上的战术定价攻击。</p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap">但接下来的阶段，云将变得真正有趣起来。</p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap">价格竞争是一个让任何企业战略家哀叹的游戏，云战争中的大玩家们也不例外。之后几年，我们将会开始看到每一个云玩家如何去推动差异化竞争，因为销售商品化的基础设施只能玩这么久。并且这正是每个玩家各异的DNA变得最有指导意义的地方。</p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap">对微软而言，利润来自于优质的企业软件和服务，并且推动其组合产品之间越来越多的协同效应。对IBM而言，我们很可能会看到其在特定行业解决方案，咨询和认知计算方面的工作带来的价值增值。对谷歌而言，可能会归结于它的成本优势和已经掌握多年的难以复制的技术。</p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap">亚马逊很可能会发现自己在一个相比于核心业务并不陌生的点上，通过低成本的产品和可供广泛选择的多种服务来竞争。听起来是不是很熟悉？最后，我们将看到像甲骨文甚至可能的黑马如Facebook等这些玩家的坚持不懈，它们都将同样设计自己的模式来满足它们的业务。</p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap">这不是一个赢家通吃的游戏，但它会是一场侵略战争，致力于占领这个星球上每个开发者和企业的心灵与头脑。</p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap">我们所知道的是计算成本将继续以数量级的方式下降，而解决一些边缘但棘手的IT问题的产品和服务将被推出。云战争才刚刚开始。</p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><hr style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap">云时代到来后，程序员们该何去何从？感觉会有很大的变化，要不下次想清楚了写写关于这个主题，如何？</p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><br style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><p style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important;clear:both;min-height:1em;white-space:pre-wrap"><span style="margin:0;padding:0;max-width:100% !important;box-sizing:border-box !important;-webkit-box-sizing:border-box !important;word-wrap:break-word !important"/></p><p style="margin:0;padding:0;-webkit-box-sizing:border-box !important;clear:both;white-space:pre-wrap;min-height:1em;color:rgb(62,62,62);font-size:18px;line-height:28.8px;background-color:rgb(255,255,255);text-align:center;max-width:100% !important;box-sizing:border-box !important;word-wrap:break-word !important"><span style="margin:0;padding:0;-webkit-box-sizing:border-box !important;font-size:12px;line-height:28.8px;max-width:100% !important;box-sizing:border-box !important;word-wrap:break-word !important"> <div style="margin:0;padding:0 15px 0"> <div style="margin:0;padding:0" />   </div> </div></div></body></html></p>
+
+
+
+
+</body>
+
+</html>
